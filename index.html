@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
+        type="image/x-icon">
+    </link>
+    <style type="text/css">
+        a#aboutlink {
+            margin-left: .5cm;
+            margin-right: .5cm;
+        }
+
+        a#gmaillink {
+            margin-left: 27cm;
+            margin-right: .5cm;
+        }
+
+        img#logo {
+            margin-left: 13cm;
+        }
+
+        .nav {
+            overflow: hidden;
+            margin-left: 11cm;
+        }
+
+        input#search {
+            line-height: 2.6em;
+        }
+
+        input#submit {
+            margin-left: 1.8cm;
+            border: hidden;
+            height: 1cm;
+            width: 3.5cm;
+            font-family: productSans;
+        }
+
+        input#reset {
+            margin-left: .5cm;
+            border: hidden;
+            height: 1cm;
+            width: 3.5cm;
+            font-family: productSans;
+        }
+
+        @font-face {
+            font-family: productSans;
+            src: url(Product\ Sans\ Regular.ttf);
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <a id="aboutlink"
+        href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+    <a id="storelink"
+        href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwilrNvgzJbsAhXrRd8KHbJvAH0QpMwCCAQ&url=https%3A%2F%2Fstore.google.com%2FUS%3Futm_source%3Dhp_header%26utm_medium%3Dgoogle_ooo%26utm_campaign%3DGS100042%26hl%3Den-US&usg=AOvVaw0wvkRBURf91YdMQCXOelDf">Store</a>
+    <a id="gmaillink" href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a>
+    <a id="imageslink" href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
+    <br><br><br><br><br>
+    <br><br><br><br>
+    <img id="logo" src="google-logo.png" alt="Google Logo">
+    <br>
+    <br>
+    <div class="nav">
+        <form action="POST">
+            <input type="text" name="search" id="search" size="58">
+            <br><br>
+            <input type="submit" name=submit id="submit" value="Google Search">
+            <input type="reset" name=reset id="reset" value="I'm Feeling Lucky">
+        </form>
+    </div>
+</body>
+
+</html>
